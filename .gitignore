@@ -66,5 +66,4 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
-julia-demo/
 juliahealth_env/
