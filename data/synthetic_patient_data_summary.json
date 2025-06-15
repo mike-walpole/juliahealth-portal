@@ -1,0 +1,122 @@
+{
+  "dataset_info": {
+    "start_date": "2024-01-01",
+    "days_generated": 180,
+    "random_seed": 42,
+    "generation_timestamp": "2025-06-13T21:28:26.169799"
+  },
+  "persona_summaries": {
+    "sarah_chen": {
+      "persona_name": "Sarah Chen",
+      "persona_type": "tech_savvy_professional",
+      "data_points": {
+        "apple_watch_records": 180,
+        "phq5_assessments": 26,
+        "mood_diary_entries": 164,
+        "chat_interactions": 528,
+        "sobriety_records": 180
+      },
+      "sobriety_stats": {
+        "initial_days_sober": 46,
+        "final_days_sober": 225,
+        "relapses_occurred": 0,
+        "avg_relapse_risk": 0.35776078972843567,
+        "avg_medication_adherence": 0.9181861471653295
+      },
+      "health_metrics": {
+        "avg_resting_hr": 82.10971494405607,
+        "avg_hrv": 23.08925050153334,
+        "avg_sleep_duration": 7.217281784367783,
+        "avg_steps": 7962.0888888888885
+      },
+      "mental_health": {
+        "avg_phq5_score": 1.9615384615384615,
+        "phq5_assessments_completed": 26
+      }
+    },
+    "marcus_rodriguez": {
+      "persona_name": "Marcus Rodriguez",
+      "persona_type": "veteran_in_recovery",
+      "data_points": {
+        "apple_watch_records": 180,
+        "phq5_assessments": 13,
+        "mood_diary_entries": 123,
+        "chat_interactions": 62,
+        "sobriety_records": 180
+      },
+      "sobriety_stats": {
+        "initial_days_sober": 181,
+        "final_days_sober": 360,
+        "relapses_occurred": 0,
+        "avg_relapse_risk": 0.1974199287652759,
+        "avg_medication_adherence": 0.9426740515467192
+      },
+      "health_metrics": {
+        "avg_resting_hr": 74.673533363409,
+        "avg_hrv": 25.522715708828773,
+        "avg_sleep_duration": 6.628224269769074,
+        "avg_steps": 9400.694444444445
+      },
+      "mental_health": {
+        "avg_phq5_score": 3.3076923076923075,
+        "phq5_assessments_completed": 13
+      }
+    },
+    "jessica_thompson": {
+      "persona_name": "Jessica Thompson",
+      "persona_type": "young_adult_student",
+      "data_points": {
+        "apple_watch_records": 180,
+        "phq5_assessments": 26,
+        "mood_diary_entries": 172,
+        "chat_interactions": 993,
+        "sobriety_records": 180
+      },
+      "sobriety_stats": {
+        "initial_days_sober": 31,
+        "final_days_sober": 210,
+        "relapses_occurred": 0,
+        "avg_relapse_risk": 0.45506477405574175,
+        "avg_medication_adherence": 0.8743210485589793
+      },
+      "health_metrics": {
+        "avg_resting_hr": 83.10666419660603,
+        "avg_hrv": 33.01224648478072,
+        "avg_sleep_duration": 6.430097807284217,
+        "avg_steps": 7693.181260026234
+      },
+      "mental_health": {
+        "avg_phq5_score": 3.8076923076923075,
+        "phq5_assessments_completed": 26
+      }
+    },
+    "robert_williams": {
+      "persona_name": "Robert Williams",
+      "persona_type": "empty_nester",
+      "data_points": {
+        "apple_watch_records": 180,
+        "phq5_assessments": 13,
+        "mood_diary_entries": 86,
+        "chat_interactions": 65,
+        "sobriety_records": 180
+      },
+      "sobriety_stats": {
+        "initial_days_sober": 91,
+        "final_days_sober": 270,
+        "relapses_occurred": 0,
+        "avg_relapse_risk": 0.31869129293649345,
+        "avg_medication_adherence": 0.9708204149456218
+      },
+      "health_metrics": {
+        "avg_resting_hr": 74.66049998892524,
+        "avg_hrv": 20.70167881156754,
+        "avg_sleep_duration": 8.836257572291032,
+        "avg_steps": 2932.0333333333333
+      },
+      "mental_health": {
+        "avg_phq5_score": 9.538461538461538,
+        "phq5_assessments_completed": 13
+      }
+    }
+  }
+}

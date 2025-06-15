@@ -1,0 +1,24 @@
+{
+  "name": "juliademo2",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "export": "node src/export-data.js",
+    "verify": "node src/verify-data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.0",
+    "drizzle-orm": "^0.36.4",
+    "postgres": "^3.4.5"
+  }
+}
