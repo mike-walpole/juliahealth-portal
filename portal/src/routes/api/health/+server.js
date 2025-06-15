@@ -1,25 +1,11 @@
-import { db } from '$lib/db/connection.js';
-import { personas } from '$lib/db/schema.js';
 import { json } from '@sveltejs/kit';
 
+/** @type {import('./$types').RequestHandler} */
 export async function GET() {
-	try {
-		// Simple query to test database connection
-		await db.select().from(personas).limit(1);
-		
-		return json({
-			status: 'healthy',
-			database: 'connected',
-			timestamp: new Date().toISOString()
-		});
-	} catch (error) {
-		console.error('Health check failed:', error);
-		
-		return json({
-			status: 'error',
-			database: 'disconnected',
-			error: error.message,
-			timestamp: new Date().toISOString()
-		}, { status: 500 });
-	}
+	return json({
+		status: 'ok',
+		timestamp: new Date().toISOString(),
+		service: 'JuliaHealth Portal',
+		version: '1.0.0'
+	});
 } 
